@@ -33,6 +33,7 @@ __Algorithm:__
 6. Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
 
 __Programme:__
+~~~
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import hilbert
@@ -83,7 +84,7 @@ plt.ylabel('Frequency (Hz)')
 
 plt.tight_layout()
 plt.show()
-
+~~~
 __Output:__
 <img width="980" height="740" alt="image" src="https://github.com/user-attachments/assets/9b7c1602-a922-4448-8a1c-0ed2348fc07d" />
 
